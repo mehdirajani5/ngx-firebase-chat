@@ -1,0 +1,44 @@
+.contact-name {
+    font-weight: 600;
+}
+
+.message {
+    line-height: 1.2;
+    color: grey;
+    font-size: 13px;
+}
+
+.time {
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.list {
+    cursor: pointer;
+    &:hover {
+        background: #e7e7e7;
+    }
+}
+
+.contact-list {
+    height: calc(100vh - 120px);
+    overflow: auto;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: none;
+    background-color: #e7e7e7;
+    font-size: 14px;
+    padding-left: 35px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 1px #e3432a;
+}
+
+.search-icon{
+    position: absolute;
+    top:14px;
+    left: 15px;
+}
